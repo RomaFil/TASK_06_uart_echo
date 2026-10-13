@@ -1,0 +1,14 @@
+[Unit]
+Description=UART echo application (mycom)
+After=multi-user.target
+
+[Service]
+Type=simple
+User=roman
+WorkingDirectory=/home/roman/mycom-logs
+ExecStart=/home/roman/mycom /dev/ttyAMA0
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
