@@ -184,7 +184,7 @@ rc=1
 | файл без прав (`/tmp/noperm`, `chmod 000`) | помилка, код ≠ 0 | `ERROR: cannot open /tmp/noperm: Permission denied`, `rc=1` |
 | `/dev/null` (не термінал) | помилка, код ≠ 0 | `ERROR: cannot configure /dev/null: Inappropriate ioctl for device`, `rc=1` |
 | Ctrl+C (SIGINT) | порт відновлено, лог закрито | `stopped by signal 2` у лозі й на екрані |
-| `kill -TERM` (SIGTERM) | те саме | `stopped by signal 15`, `rc=0` (логи `15-22-01`, `15-23-41`) |
+| `kill -TERM` (SIGTERM) | те саме | `stopped by signal 15`, `rc=0` (лог `examples/2026-10-13_15-22-01.log`) |
 | відновлення порту | швидкість повернена | перед запуском `stty -F /dev/ttyAMA0 9600`, після Ctrl+C `speed 9600 baud` |
 
 Для кожної помилки повідомлення з'являється на екрані, а також записується в лог (`examples/2026-10-13_15-20-31.log`).
