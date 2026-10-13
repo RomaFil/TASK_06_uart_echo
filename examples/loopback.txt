@@ -1,0 +1,17 @@
+#without wire
+lrwxrwxrwx 1 root root          8 Oct 13 13:01 /dev/serial0 -> ttyAMA10
+crw-rw---- 1 root dialout 204, 64 Oct 13 13:05 /dev/ttyAMA0
+crw-rw---- 1 root dialout 204, 74 Oct 13 13:01 /dev/ttyAMA10
+14: a4    pn | hi // GPIO14 = TXD0
+15: a4    pu | hi // GPIO15 = RXD0
+got:
+
+
+#with wire
+lrwxrwxrwx 1 root root          8 Oct 13 13:01 /dev/serial0 -> ttyAMA10
+crw-rw---- 1 root dialout 204, 64 Oct 13 13:08 /dev/ttyAMA0
+crw-rw---- 1 root dialout 204, 74 Oct 13 13:01 /dev/ttyAMA10
+14: a4    pn | hi // GPIO14 = TXD0
+15: a4    pu | hi // GPIO15 = RXD0
+
+got: hello loopback

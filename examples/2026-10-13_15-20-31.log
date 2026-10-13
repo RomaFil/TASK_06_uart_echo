@@ -1,0 +1,6 @@
+[2026-10-13 15:20:31.224] started
+[2026-10-13 15:20:31.224] ERROR: cannot open /dev/ttyXYZ: No such file or directory
+[2026-10-13 15:20:31.227] started
+[2026-10-13 15:20:31.227] ERROR: cannot open /tmp/noperm: Permission denied
+[2026-10-13 15:20:31.227] started
+[2026-10-13 15:20:31.228] ERROR: cannot configure /dev/null: Inappropriate ioctl for device
