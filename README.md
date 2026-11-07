@@ -1,3 +1,5 @@
+**English:** [README.en.md](README.en.md)
+
 # TASK 06: ECHO-застосунок через UART
 
 Автор: Роман Філоненко. Дата виконання: 13.10.2026. Завдання Ajax Embedded Linux Internship.
